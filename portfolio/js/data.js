@@ -1,0 +1,86 @@
+var my_info = {
+  id: 'wlsrb9809@naver.com',
+  user_name: "김진규",
+  user_call: "010-6555-0919",
+  introduction: "전자과를 졸업한 사회초년생입니다.",
+  as: "hobby",
+  interest: ["nature", "thing","human"],
+  like: [1, 3, 5, 6, 7],
+  mine: [1, 6, 7] ,
+  follow: ['photo-luv', 'pixa', 'googler', 'js-master']
+}
+
+var photos = [
+  {
+    idx: 1,
+    user_id: 'photo-luv',
+    user_name: '어린시절',
+    file_name: '추억.jpg',
+    description: '동생이랑',
+    likes: 7,
+  },
+  {
+    idx: 2,
+    user_id: 'com-al-mot',
+    user_name: '대학교',
+    file_name: '대학교.jpg',
+    description: '수업듣고 실습하는중(2017)',
+    likes: 4,
+  },
+  {
+    idx: 3,
+    user_id: 'coder',
+    user_name: '호텔 프런트데스크',
+    file_name: '용평.jpg',
+    description: '시즌 인턴중(2018)',
+    likes: 4,
+  },
+  {
+    idx: 4,
+    user_id: 'yong',
+    user_name: '용평',
+    file_name: '기숙사생활.jpg',
+    description: '기숙사 생활중(2018)',
+    likes: 2,
+  },
+  {
+    idx: 5,
+    user_id: 'dog',
+    user_name: '애견카페',
+    file_name: '애견카페jpg.jpg',
+    description: '강아지랑 노는중(2019)',
+    likes: 2,
+  },
+  {
+    idx: 6,
+    user_id: 'pixa',
+    user_name: '전역',
+    file_name: '군대.jpg',
+    description: '만기제대(2020)',
+    likes: 9,
+  },
+  {
+    idx: 7,
+    user_id: 'googler',
+    user_name: '배터리 충방전회사',
+    file_name: '현장실습.jpg',
+    description: '인턴 생활중(2021)',
+    likes: 5,
+  },
+  {
+    idx: 8,
+    user_id: 'dog',
+    user_name: '캡스톤디자인',
+    file_name: '상장.jpg',
+    description: '경진대회 우수상(2021)',
+    likes: 2,
+  },
+  {
+    idx: 9,
+    user_id: 'js-master',
+    user_name: '졸업작품(체온 및 마스크 인식 카메라)',
+    file_name: '졸업작품.jpg',
+    description: '경각심 고취(2021)',
+    likes: 10,
+  }
+]
