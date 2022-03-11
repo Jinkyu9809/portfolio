@@ -12,7 +12,7 @@ header {
   width: 100vw;
   height: 64px;
   line-height: 64px;
-  background-color: #ff4500;
+  background-color: #f3e5f5;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 header .logo {
@@ -20,7 +20,7 @@ header .logo {
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
-  color: #fff;
+  color: #212121;
 }
 header .nav {
   grid-area: nav;
@@ -28,20 +28,20 @@ header .nav {
 header .nav li {
   display: inline-block;
   margin-right: 36px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: #fff;
+  color: #212121;
   cursor: pointer;
 }
 header .nav li.on {
-  border-bottom: 4px solid white;
+  border-bottom: 5px solid #004d40;
   height: 60px;
 }
 header .account {
   grid-area: account;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #fff;
+  color: #212121;
 }
 header .nav li:hover,
 header .account:hover {

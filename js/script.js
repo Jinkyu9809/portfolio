@@ -21,7 +21,8 @@ function setMenu (_menu){
   // 필터 방식
   var filters = {
     all: function (it) { return true; },
-    mine: function (it) { return it.user_id === my_info.id; },
+    // mine: function (it) { return it.user_id === my_info.id; },
+    mine: function (it) { return my_info.mine.indexOf(it.idx) > -1; },
     like: function (it) { return my_info.like.indexOf(it.idx) > -1; },
     follow: function (it) { return my_info.follow.indexOf(it.user_id) > -1; }
   };
